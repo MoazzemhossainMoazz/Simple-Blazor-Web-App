@@ -78,3 +78,4 @@ E:\just practice\BlazorPrc1\BlazorApp1\BlazorApp1\obj\Debug\net9.0\refint\Blazor
 E:\just practice\BlazorPrc1\BlazorApp1\BlazorApp1\obj\Debug\net9.0\BlazorApp1.pdb
 E:\just practice\BlazorPrc1\BlazorApp1\BlazorApp1\obj\Debug\net9.0\BlazorApp1.genruntimeconfig.cache
 E:\just practice\BlazorPrc1\BlazorApp1\BlazorApp1\obj\Debug\net9.0\ref\BlazorApp1.dll
+E:\just practice\BlazorPrc1\BlazorApp1\BlazorApp1\obj\Debug\net9.0\BlazorApp1.sourcelink.json

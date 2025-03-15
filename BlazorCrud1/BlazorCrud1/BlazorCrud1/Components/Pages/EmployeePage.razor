@@ -1,0 +1,86 @@
+﻿@page "/employees"
+
+@inject EmployeeRepository EmployeeRepo
+
+<h3>Employees</h3>
+
+<button @onclick="ShowAddForm">Add New Employee</button>
+
+@if (employees == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in employees)
+            {
+                <tr>
+                    <td>@employee.Name</td>
+                    <td>@employee.Department</td>
+                    <td>@employee.Salary</td>
+                    <td>
+                        <button @onclick="(() => ShowEditForm(employee))">Edit</button>
+                        <button @onclick="(() => DeleteEmployee(employee.Id))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Employee> employees;
+    private Employee employee = new Employee();
+    private bool showForm = false;
+    private string formTitle = "Add Employee";
+
+    protected override async Task OnInitializedAsync()
+    {
+        employees = (await EmployeeRepo.GetEmployeesAsync()).ToList();
+    }
+
+    private void ShowAddForm()
+    {
+        employee = new Employee();
+        formTitle = "Add Employee";
+        showForm = true;
+    }
+
+    private void ShowEditForm(Employee emp)
+    {
+        employee = emp;
+        formTitle = "Edit Employee";
+        showForm = true;
+    }
+
+    private async Task SaveEmployee()
+    {
+        if (employee.Id == 0)
+        {
+            await EmployeeRepo.CreateEmployeeAsync(employee);
+        }
+        else
+        {
+            await EmployeeRepo.UpdateEmployeeAsync(employee);
+        }
+
+        employees = (await EmployeeRepo.GetEmployeesAsync()).ToList();
+        showForm = false;
+    }
+
+    private async Task DeleteEmployee(int id)
+    {
+        await EmployeeRepo.DeleteEmployeeAsync(id);
+        employees = (await EmployeeRepo.GetEmployeesAsync()).ToList();
+    }
+}

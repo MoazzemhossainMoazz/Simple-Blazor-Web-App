@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|e:\\just practice\\blazorprc1\\blazorapp1\\blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|e:\\just practice\\blazorprc1\\blazorapp1\\blazorapp1\\components\\pages\\installation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\installation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|e:\\just practice\\blazorprc1\\blazorapp1\\blazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|e:\\just practice\\blazorprc1\\blazorapp1\\blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|e:\\just practice\\blazorprc1\\blazorapp1\\blazorapp1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3E5CC9A-89BA-4887-959D-B65B9A82BB48}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +46,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "E:\\just practice\\BlazorPrc1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Weather.razor",
+              "ToolTip": "E:\\just practice\\BlazorPrc1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T10:09:36.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Installation.razor",
+              "DocumentMoniker": "E:\\just practice\\BlazorPrc1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Installation.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Installation.razor",
+              "ToolTip": "E:\\just practice\\BlazorPrc1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Installation.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Installation.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T10:09:30.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "App.razor",
               "DocumentMoniker": "E:\\just practice\\BlazorPrc1\\BlazorApp1\\BlazorApp1\\Components\\App.razor",
@@ -46,7 +80,8 @@
               "RelativeToolTip": "BlazorApp1\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T06:29:44.607Z"
+              "WhenOpened": "2025-03-13T06:29:44.607Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,14 +91,14 @@
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "E:\\just practice\\BlazorPrc1\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor*",
               "RelativeToolTip": "BlazorApp1\\Components\\Layout\\NavMenu.razor*",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAE8AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-13T05:59:48.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "E:\\just practice\\BlazorPrc1\\BlazorApp1\\BlazorApp1\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
@@ -71,7 +106,8 @@
               "RelativeToolTip": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T05:52:03.105Z"
+              "WhenOpened": "2025-03-13T05:52:03.105Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,286 @@
+﻿@page "/installation"
+@attribute [StreamRendering]
+
+<style>
+    .header {
+        background-color: #1160a3; /* Your selected background color */
+        color: white; /* Your selected text color */
+        padding: 10px; /* Optional: Add padding */
+        border-radius: 5px; /* Optional: Rounded corners */
+    }
+
+    .custom-container {
+        background-color: #FAF9F6; /* Your selected background color */
+        color: black; /* Your selected text color */
+        padding: 10px; /* Optional: Add padding */
+        border-radius: 5px; /* Optional: Rounded corners */
+    }
+
+    .box {
+        border: 2px solid none;
+    }
+
+    .input-box {
+        width: 300px;
+        height: 20px;
+    }
+</style>
+
+<div>
+    <div class="container-fluid custom-container">
+        <h2 class="header">Installation</h2>
+
+        <!--------------------------------- 1st Row Start---------------------------------------->
+        <div class="row g-3 my-3">
+
+            <!--------------------------------- 1st Row,  1st Column---------------------------------------->
+            <div class="col-sm-4 box">
+
+                <div class="row mb-1">
+                    <label for="inputEmail3" class="col-sm-5 col-form-label">Customer ID</label>
+                    <div class="col-sm-5">
+                        <input type="email" class="form-control border-primary" id="inputEmail3" style="">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--------------------------------- 1st Row,  2nd Column---------------------------------------->
+            <div class="col-sm-4 box">
+
+                <div class="row mb-1">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Ref. (if any) </label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control border-primary" id="inputEmail3" style="">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--------------------------------- 1st Row,  3rd Column---------------------------------------->
+            <div class="col-sm-4 box">
+
+                <div class="row mb-1">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Installation No </label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control border-primary" id="inputEmail3" style="">
+                    </div>
+                </div>
+
+            </div>
+            <!--------------------------------- 1st Row End---------------------------------------->
+        </div>
+
+
+        <!--------------------------------- 2nd Row Start------------------------------------------------->
+        <div class="row g-3 my-2">
+
+            <!--------------------------------- 2nd Row,  1st Column Start---------------------------------------->
+            <div class="col-sm-5 box">
+
+                <div class="row mb-1">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Customer Name</label>
+                    <div class="col-sm-7">
+                        <input type="email" class="form-control border-primary" id="inputEmail3" style="">
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Address</label>
+                    <div class="col-sm-7">
+                        <input type="email" class="form-control border-primary" id="inputEmail3" style="height: 70px;">
+                    </div>
+                </div>
+
+                <div class="row mb-1">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Machine/Modality </label>
+                    <div class="col-sm-5">
+                        <select class="form-select border-primary mb-2" id="machineDropdown" style="">
+                            <option selected disabled>Select an option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-1">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Other Options </label>
+                    <div class="col-sm-5">
+                        <select class="form-select border-primary mb-2" id="machineDropdown" style="">
+                            <option selected disabled>Select an option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!--------------------------------- Second Row,  1st Column End---------------------------------------->
+            </div>
+
+            <!--------------------------------- Second Row,  2nd Column Start---------------------------------------->
+            <div class="col-sm-3 box">
+
+                <div class="row mb-2">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Division</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control border-primary" id="inputEmail3">
+                    </div>
+                </div>
+
+                <div class="row mb-2">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">District</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control border-primary" id="inputEmail3">
+                    </div>
+                </div>
+
+                <div class="row mb-2">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Branch ID </label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control border-primary" id="inputEmail3">
+                    </div>
+                </div>
+
+                <div class="row mb-2">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Model No </label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control border-primary" id="inputEmail3">
+                    </div>
+                </div>
+
+                <div class="row mb-2">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Serial No </label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control border-primary" id="inputEmail3">
+                    </div>
+                </div>
+
+                <div class="row mb-1">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Condition</label>
+                    <div class="col-sm-8">
+                        <select class="form-select border-primary mb-2" id="machineDropdown" style="">
+                            <option selected disabled>Select an option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Period</label>
+                    <div class="col-sm-8">
+                        <select class="form-select border-primary mb-2" id="machineDropdown" style="">
+                            <option selected disabled>Select an option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+                <!--------------------------------- 2nd Row,  2nd Column End---------------------------------------->
+            </div>
+
+
+            <!--------------------------------- 2nd Row,  3rd Column Start---------------------------------------->
+            <div class="col-sm-4 box">
+
+                <div class="row mb-5">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Installation Date</label>
+                    <div class="col-sm-6">
+                        <input type="date" class="form-control border-primary mb-2" id="inputEmail3" style="">
+                    </div>
+                </div>
+
+                <div class="row mb-1 mt-5">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Brand Name </label>
+                    <div class="col-sm-6">
+                        <select class="form-select border-primary mb-2" id="machineDropdown" style="">
+                            <option selected disabled>Select an option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-1">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Engineer</label>
+                    <div class="col-sm-6">
+                        <select class="form-select border-primary mb-2" id="machineDropdown" style="">
+                            <option selected disabled>Select an option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+                <!--------------------------------- 2nd Row,  3rd Column End---------------------------------------->
+            </div>
+            <!--------------------------------- 2nd Row End---------------------------------------->
+        </div>
+
+
+        <!--------------------------------- 3rd Row Start---------------------------------------->
+        <div class="row g-3 my-3">
+            <div class="col-sm-7 box">
+            </div>
+            <div class="col-sm-5 box">
+
+                <div class="row mb-2 mt-2">
+                    <label for="inputEmail3" class="col-sm-3 col-form-label">Maintenance Schedule</label>
+                    <div class="col-sm-9">
+                        <textarea class="form-control border-primary" id="maintenanceSchedule" rows="3" placeholder="(Options to be shown based on different brands and as per maintenance schedule)
+              "></textarea>
+                    </div>
+                </div>
+
+                <div class="row mb-2 mt-2">
+                    <label for="inputEmail3" class="col-sm-3 col-form-label">Service No</label>
+                    <div class="col-sm-6">
+                        <input type="email" class="form-control border-primary" id="inputEmail3">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <!--------------------------------- 3rd Row End---------------------------------------->
+        </div>
+
+        <!--------------------------------- 4th Row Start---------------------------------------->
+        <div class="row g-3 my-3">
+
+            <div class="col-12 box">
+                <div class="row mb-2 mt-2">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label pl">Job Details </label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control border-primary" id="maintenanceSchedule" rows="3" placeholder=""></textarea>
+                    </div>
+                </div>
+
+                <div class="row mb-2 mt-2">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Remarks</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control border-primary" id="inputEmail3">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--------------------------------- 4th Row End---------------------------------------->
+        </div>
+    </div>
+</div>
+
+
+@code {
+
+}

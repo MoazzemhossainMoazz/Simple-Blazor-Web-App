@@ -1,0 +1,7 @@
+E:\just practice\BlazorPrc1\BlazorCrud1\BlazorCrud1\BlazorCrud1\obj\Debug\net9.0\BlazorCrud1.csproj.AssemblyReference.cache
+E:\just practice\BlazorPrc1\BlazorCrud1\BlazorCrud1\BlazorCrud1\obj\Debug\net9.0\BlazorCrud1.GeneratedMSBuildEditorConfig.editorconfig
+E:\just practice\BlazorPrc1\BlazorCrud1\BlazorCrud1\BlazorCrud1\obj\Debug\net9.0\BlazorCrud1.AssemblyInfoInputs.cache
+E:\just practice\BlazorPrc1\BlazorCrud1\BlazorCrud1\BlazorCrud1\obj\Debug\net9.0\BlazorCrud1.AssemblyInfo.cs
+E:\just practice\BlazorPrc1\BlazorCrud1\BlazorCrud1\BlazorCrud1\obj\Debug\net9.0\BlazorCrud1.csproj.CoreCompileInputs.cache
+E:\just practice\BlazorPrc1\BlazorCrud1\BlazorCrud1\BlazorCrud1\obj\Debug\net9.0\BlazorCrud1.MvcApplicationPartsAssemblyInfo.cache
+E:\just practice\BlazorPrc1\BlazorCrud1\BlazorCrud1\BlazorCrud1\obj\Debug\net9.0\BlazorCrud1.sourcelink.json

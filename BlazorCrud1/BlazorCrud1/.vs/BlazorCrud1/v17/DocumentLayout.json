@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\just practice\\BlazorPrc1\\BlazorCrud1\\BlazorCrud1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|e:\\just practice\\blazorprc1\\blazorcrud1\\blazorcrud1\\blazorcrud1\\data\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|solutionrelative:blazorcrud1\\data\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|e:\\just practice\\blazorprc1\\blazorcrud1\\blazorcrud1\\blazorcrud1\\components\\pages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|solutionrelative:blazorcrud1\\components\\pages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|e:\\just practice\\blazorprc1\\blazorcrud1\\blazorcrud1\\blazorcrud1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|solutionrelative:blazorcrud1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|e:\\just practice\\blazorprc1\\blazorcrud1\\blazorcrud1\\blazorcrud1\\components\\pages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|solutionrelative:blazorcrud1\\components\\pages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|e:\\just practice\\blazorprc1\\blazorcrud1\\blazorcrud1\\blazorcrud1\\data\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|solutionrelative:blazorcrud1\\data\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EED6D68-7F69-4CCF-A293-C394D71D2134}|BlazorCrud1\\BlazorCrud1.csproj|e:\\just practice\\blazorprc1\\blazorcrud1\\blazorcrud1\\blazorcrud1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,13 +58,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SqlConnection.cs",
               "DocumentMoniker": "E:\\just practice\\BlazorPrc1\\BlazorCrud1\\BlazorCrud1\\BlazorCrud1\\Data\\SqlConnection.cs",
               "RelativeDocumentMoniker": "BlazorCrud1\\Data\\SqlConnection.cs",
               "ToolTip": "E:\\just practice\\BlazorPrc1\\BlazorCrud1\\BlazorCrud1\\BlazorCrud1\\Data\\SqlConnection.cs",
               "RelativeToolTip": "BlazorCrud1\\Data\\SqlConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T07:01:16.624Z",
               "EditorCaption": ""
@@ -77,20 +77,20 @@
               "RelativeDocumentMoniker": "BlazorCrud1\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "E:\\just practice\\BlazorPrc1\\BlazorCrud1\\BlazorCrud1\\BlazorCrud1\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BlazorCrud1\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvx8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-15T06:58:36.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EmployeePage.razor",
               "DocumentMoniker": "E:\\just practice\\BlazorPrc1\\BlazorCrud1\\BlazorCrud1\\BlazorCrud1\\Components\\Pages\\EmployeePage.razor",
               "RelativeDocumentMoniker": "BlazorCrud1\\Components\\Pages\\EmployeePage.razor",
               "ToolTip": "E:\\just practice\\BlazorPrc1\\BlazorCrud1\\BlazorCrud1\\BlazorCrud1\\Components\\Pages\\EmployeePage.razor",
               "RelativeToolTip": "BlazorCrud1\\Components\\Pages\\EmployeePage.razor",
-              "ViewState": "AgIAADwAAAAAAAAAAAAiwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-15T06:58:09.57Z",
               "EditorCaption": ""
@@ -105,8 +105,7 @@
               "RelativeToolTip": "BlazorCrud1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T06:55:56.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T06:55:56.432Z"
             },
             {
               "$type": "Document",
@@ -118,8 +117,7 @@
               "RelativeToolTip": "BlazorCrud1\\Data\\EmployeeRepository.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T06:55:33.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T06:55:33.216Z"
             },
             {
               "$type": "Document",
@@ -131,8 +129,7 @@
               "RelativeToolTip": "BlazorCrud1\\Data\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T06:54:34.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T06:54:34.66Z"
             },
             {
               "$type": "Document",
@@ -144,8 +141,7 @@
               "RelativeToolTip": "BlazorCrud1\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-15T06:49:38.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T06:49:38.465Z"
             },
             {
               "$type": "Document",
@@ -157,8 +153,7 @@
               "RelativeToolTip": "BlazorCrud1\\Data\\DapperContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T06:48:28.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T06:48:28.686Z"
             }
           ]
         }

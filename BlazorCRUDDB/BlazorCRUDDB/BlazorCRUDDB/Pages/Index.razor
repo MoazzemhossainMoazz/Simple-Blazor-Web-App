@@ -1,0 +1,54 @@
+﻿@page "/employees"
+@using BlazorCRUDDB.Interfaces
+@using BlazorCRUDDB.Models
+@using BlazorCRUDDB.Services
+@inject IEmployeeInterface employeeService
+
+<h3>Employees</h3>
+<a href="/employee/add" class="btn btn-primary mt-2">Add Employee</a>
+<div class="row">
+    <div class="col-md-12 card">
+        <table class="table table-hover table-responsive table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if(employees != null && employees.Any())
+                {
+                    @foreach (var employee in employees)
+                    {
+                        <tr>
+                            <td>@employee.Id</td>
+                            <td>@employee.FullName</td>
+                            <td>@employee.Email</td>
+                            <td>
+                                <a href="/employee/edit/@employee.Id" class="btn btn-success">Edit</a>
+                                <a href="/employee/delete/@employee.Id" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                elase
+                {
+                    <tr>
+                        <td colspan="3">Employees not found</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@code {
+    private List<Employee> employees = new();
+
+    protected override async Task OnInitializedAsync() 
+    {
+        employees = await employeeService.GetAllAsync();
+    }
+}
